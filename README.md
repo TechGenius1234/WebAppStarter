@@ -2,6 +2,8 @@
 
 A lightweight starter template for ASP.NET Core web apps.  
 Modified from the actual Microsoft template. Enjoy! 😄
+It does have a email verification part but that isnt coded in,
+you will have to do it yourself!
 
 ---
 
@@ -9,7 +11,8 @@ Modified from the actual Microsoft template. Enjoy! 😄
 
 - ASP.NET Core MVC project structure  
 - Cross-platform compatibility (Windows & Linux)  
-- Quick-start for new web app ideas
+- Quick-start for new web app ideas  
+- **User Account System**: Email and password login for registered users.
 
 ---
 
@@ -81,6 +84,35 @@ WebAppStarter/
 
 ---
 
+## 🧑‍🤝‍🧑 User Accounts
+
+This app supports user accounts with **email** and **password** authentication.
+
+### ✅ Register
+
+To register for an account:
+1. Visit the "Register" page in the app.
+2. Provide your email and password.
+3. Click **Submit** to create your account.
+
+### 🔐 Login
+
+To log in:
+1. Visit the "Login" page.
+2. Enter your registered email and password.
+3. Click **Log In** to access your account.
+
+> If you forget your password, use the "Forgot Password" link on the login page to reset it.
+
+### 🔄 Password Management
+
+If you need to **reset** your password:
+1. Click the "Forgot Password" link on the login page.
+2. Enter your email address, and a reset link will be sent to you.
+3. Follow the instructions in the email to set a new password.
+
+---
+
 ## 🙌 Author
 
 **TechGenius1234**  
@@ -91,3 +123,4 @@ Modified from the actual MS template. Enjoy!
 ## 📜 License
 
 This project is open source under the [MIT License](LICENSE).
+```
