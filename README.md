@@ -22,7 +22,7 @@ you will have to do it yourself!
 ### ✅ Requirements
 
 - [.NET SDK 7.0 or newer](https://dotnet.microsoft.com/en-us/download)
-
+- Must have Windows Or Linux
 ---
 
 ### 🪟 Windows
