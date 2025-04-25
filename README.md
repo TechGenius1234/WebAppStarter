@@ -2,6 +2,7 @@
 
 A lightweight starter template for ASP.NET Core web apps.  
 Modified from the actual Microsoft template. Enjoy! 😄
+
 It does have a email verification part but that isnt coded in,
 you will have to do it yourself!
 
@@ -66,21 +67,8 @@ dotnet run
 ```
 
 Then visit `http://localhost:5000`
-
----
-
-## 📦 Folder Structure
-
-```
-WebAppStarter/
-├── Controllers/
-├── Models/
-├── Views/
-├── wwwroot/
-├── Program.cs
-├── WebAppStarter.csproj
-└── ...
-```
+#### If your running as a server in your local network or externally then use the ip on another device
+#### If you dont have another device then do local HOST
 
 ---
 
